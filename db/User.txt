@@ -1,3 +1,18 @@
 [
-
+  {
+    "id": 0,
+    "username": "mmm",
+    "password": "123",
+    "role": {
+      "__enum__": "normal"
+    }
+  },
+  {
+    "id": 1,
+    "username": "sss",
+    "password": "111",
+    "role": {
+      "__enum__": "normal"
+    }
+  }
 ]
