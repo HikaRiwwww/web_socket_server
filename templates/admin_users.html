@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+</head>
+<body>
+    <h1>Hello, admin</h1>
+    <h2>all users</h2>
+    <form action="/admin/users/update" method="post">
+        <input type="text" name="id" value="" placeholder='请输入要修改密码的id'>
+        <br>
+        <input type="text" name="newpwd" value="" placeholder='请输入新密码'>
+        <br>
+        <button type="submit">submit</button>
+    <div>{{users}}</div>
+</body>
+</html>
